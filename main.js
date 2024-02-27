@@ -31,7 +31,7 @@ function onMIDISuccess(midiAccess) {
   const inputs = midiAccess.inputs;
 
   inputs.forEach((input) => {
-    //console.log("myInputs", input); //Logs each input to console.
+    console.log("myInputs", input.name); //Logs each input to console.
     // input.onmidimessage = handleInput; //Newer method
     input.addEventListener("midimessage", handleInput);
   });

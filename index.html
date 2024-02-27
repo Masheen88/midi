@@ -7,10 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="main.css" />
   </head>
-  <body>
+  <body id="board">
     <h1>Matt's Midi Project</h1>
 
-    <button id="playButton">Play Sound</button>
+    <button id="playButton">Play Sound</button><br />
+    <label for="midiInputs">Select an input:</label>
+    <select id="midiInputs" name="midiInputs">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="fiat">Fiat</option>
+      <option value="audi">Audi</option>
+    </select>
     <script src="main.js"></script>
 
     <div id="keyboard">
@@ -73,6 +80,9 @@
         <div id="75-Note" data-key="75" class="key sharp" data-note="D#">
           <span class="hints">D#5 - Eb5</span>
         </div>
+        <!-- <div id="76-Note" data-key="76" class="key" data-note="E">
+          <span class="hints">E5</span>
+        </div> -->
       </div>
     </div>
   </body>

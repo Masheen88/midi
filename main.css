@@ -5,6 +5,12 @@ html {
   text-align: center;
 }
 
+#board {
+  width: 100vw;
+  height: 100vh;
+  background-color: #028ae9;
+}
+
 video#bgvid {
   position: fixed;
   top: 50%;
@@ -137,8 +143,8 @@ h2 {
 
 .playing {
   transform: scale(0.95);
-  border-color: #028ae9;
-  box-shadow: 0 0 1rem #028ae9;
+  border-color: #e96602;
+  box-shadow: 0 0 1rem #e92902;
 }
 
 .hints {
